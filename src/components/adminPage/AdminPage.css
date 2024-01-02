@@ -1,8 +1,8 @@
 
    
 .custom-button {
-  background-color: #2dd2b1; /* צבע רקע */
-  color: #2dd2b1; /* צבע טקסט */
+  background-color: primary; /* צבע רקע */
+  color: primary; /* צבע טקסט */
   padding: 10px 20px; /* רווח פנימי */
   font-size: 16px; /* גודל גופן */
   border: none; /* להסיר גבולות */
@@ -16,12 +16,12 @@
 
 .custom-link {
   font-size:20px;
-  color: #2dd2b1; /* צבע הקישור */
+  color: primary; /* צבע הקישור */
   text-decoration: none; /* להסיר קווים תחתונים */
 }
 
 .custom-button:hover {
-  background-color: #2dd2b1; /* צבע רקע בעת העצמת העכבר */
+  background-color: primary; /* צבע רקע בעת העצמת העכבר */
 }
   .div{
     margin-top: 300px;
@@ -42,11 +42,4 @@
     flex-direction: row;
     z-index:2;
    }
-/* .custom-button{
-
-  position:absolute;
-  left:20%;
-  right:15%;
-  top:15%;
-} */
 

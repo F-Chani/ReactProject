@@ -42,13 +42,11 @@ const Meetings = (observer(() => {
               <li key={key} className="service-item" >
                 <h2> serviceName: {meeting.serviceName}</h2>
                 <p>  serviceDescribtion:{meeting.serviceDescribtion}</p>
-               
                 <p className={validDate(meeting.dateTime)}>
                       date: {meeting.dateTime}</p>
                 <p>clientName:{meeting.clientName}</p>
                 <p>clientPhone: {meeting.clientPhone}</p>
                 <p>clientEmail: {meeting.clientEmail}</p>
-                {/* <p>משך זמן: {service.duration} דקות</p> */}
               </li>
             ))}
             </div>

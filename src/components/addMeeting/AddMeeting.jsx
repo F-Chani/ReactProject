@@ -106,7 +106,7 @@ const AddMeeting = observer(() => {
                                         onChange={handleChange}
                                     >
                                         {AdminData.services.map((x, key) =>
-                                            <MenuItem value={x.description} key={key}>{x.description}</MenuItem>
+                                            <MenuItem value={x.name} key={key}>{x.name}</MenuItem>
                                         )}
                                     </Select>
                                 </FormControl>

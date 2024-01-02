@@ -9,7 +9,7 @@ import TextField from '@mui/material/TextField';
 import AdminData from "../../store/AdminData";
 import Store from '../../store/Store';
 import Swal from 'sweetalert2';
-import X from '../../assets/images/X.gif';
+// import X from '../../assets/images/X.gif';
 import * as React from 'react';
 import Box from '@mui/material/Box';  // נכון: '@mui/material/Box'
 import CircularProgress from '@mui/material/CircularProgress';  // נכון: '@mui/material/CircularProgress'
@@ -60,7 +60,6 @@ const AddService = observer(() => {
 
         }
 
-        // Reset the form after submitting
         setFormData({
             id:   String(AdminData.services.length),
             name: '',
@@ -70,9 +69,6 @@ const AddService = observer(() => {
         });
         setIsOpen(false);
     };
-
-
-
     return (
         <>
             <Button  className="addServicesButton"  variant="contained" onClick={() => setIsOpen(true)}>הוסף שירות</Button>
